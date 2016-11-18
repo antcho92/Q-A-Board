@@ -5,7 +5,6 @@ app.controller('newController', ['$scope', '$routeParams', 'questionFactory', fu
   })
   this.create = function() {
     this.question._user = this.user._id
-    console.log(this.question)
     qF.create(this.question);
   }
 }]);

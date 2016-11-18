@@ -6,7 +6,6 @@ app.controller('dashboardController', ['$scope', 'usersFactory', 'dashboardFacto
   function getQuestions(questions) {
     self.questions = questions;
     self.question = {};
-    console.log(self.questions, 'questions');
   }
   dF.index(getQuestions);
 }])

@@ -2,7 +2,6 @@ app.controller('loginController', ['$scope', 'usersFactory', function($scope, uF
   var self = this;
   this.login = function() {
     uF.login(this.user, function(err) {
-      console.log(err)
       self.errors = err;
     })
   };
@@ -10,6 +9,5 @@ app.controller('loginController', ['$scope', 'usersFactory', function($scope, uF
     self.user = user;
   }, function(err) {
     self.errors = err;
-    console.log(err, 'error');
   });
 }])
