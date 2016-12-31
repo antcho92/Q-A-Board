@@ -1,6 +1,6 @@
-# Bucket List Project
+# Q&A Message Board
 
-Using the MEAN Stack and Bootstrap, this web app allows you to create bucket lists and even add a partner to that item so you can both check it off.
+This web app is a question and answer message board where users can post answers to questions and the most upvoted answer is pushed to the top.
 
 You can find the deployed website at:
 http://52.23.216.119/
